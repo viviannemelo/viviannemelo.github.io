@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'kanit';
-  src: url(custom/fonts/Kanit/Kanit-Medium.ttf);
+  src: url(custom/fonts/kanit/Kanit-Medium.ttf);
 }
 
 @font-face {
   font-family: 'raleway';
-  src: url(custom/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  src: url(custom/fonts/raleway/Raleway-VariableFont_wght.ttf);
 }
 
 body {
