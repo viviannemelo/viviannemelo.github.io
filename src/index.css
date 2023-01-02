@@ -1,13 +1,309 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'kanit';
+  src: url(custom/fonts/Kanit/Kanit-Medium.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'raleway';
+  src: url(custom/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+.div-contact {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.div-contact a button{
+  align-items: center;
+  width: 70px;
+  background-color: #202020;
+  border: 1px solid #BFE55E;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  width: 100px;
+  height: 30px;
+  color: #BFE55E;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contato {
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 50%;
+}
+
+.linkedin {
+  position: fixed;
+  transform: rotate(90deg);
+  top: 50%;
+  right: 0;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  background-color: #202020;
+  padding-top: 30px;
+}
+
+.Header a {
+  color: #BFE55E;
+  text-decoration: none;
+  font-family: 'kanit';
+}
+
+.Home {
+  background-color: #202020;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-main {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+}
+
+.info-main span{
+  font-size: 1.8rem;
+  font-family: 'kanit';
+}
+
+.info-main h1{
+  font-size: 5rem;
+  color: #BFE55E;
+  margin: 0;
+  font-family: 'kanit';
+  font-style: italic;
+  transition: transform 0.2s;
+}
+
+.info-main h1:hover {
+  transform: scaleY(0.5) scaleX(0.7);
+}
+
+.info-main h2{
+  font-size: 1.4rem;
+  font-family: 'raleway';
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.info-main a {
+  width: 150px;
+  height: 50px;
+}
+
+.info-main button {
+  background-color: #202020;
+  border: 1px solid #BFE55E;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  width: 150px;
+  height: 50px;
+  color: #BFE55E;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.img-main {
+  background-image: url(custom/images/profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #bfe55edf solid 4px;
+  box-shadow: 4px 4px 4px 2px #bfe55e51;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  color: white;
+  align-items: center;
+  width: 100%;
+  gap: 7rem;
+}
+
+.about-text {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'raleway';
+}
+
+.main-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 70%;
+  margin: auto;
+  gap: 2.8rem;
+  color: white;
+  font-family: 'kanit';
+  font-size: 1.2rem;
+  border-top: 1px solid #bfe55e45;
+  padding: 6rem;
+}
+
+.main-skills h2 {
+  margin: 0;
+  color: #BFE55E;
+  font-family: 'kanit';
+  font-style: italic;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+.skills {
+  display: flex;
+  gap: 1rem;
+}
+
+.skills div {
+  border: #BFE55E solid 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  padding: 1rem;
+  width: 110px;
+  height: 120px;
+  align-self: center;
+  align-items: center;
+}
+
+.skills .rtl {
+  font-size: 1rem;
+}
+
+.extra-skills {
+  display: flex;
+  gap: 1rem;
+}
+
+.extra-skills div {
+  border: #BFE55E solid 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  padding: 1rem;
+  width: 90px;
+  height: 100px;
+  align-self: center;
+  align-items: center;
+}
+
+.extra-skills .mui {
+  font-size: 1rem;
+}
+
+.Projects {
+  background-color: #202020;
+  color: #BFE55E;
+  padding: 5rem;
+}
+
+.Projects h2 {
+  margin: 0;
+  color: #BFE55E;
+  font-family: 'kanit';
+  font-style: italic;
+  font-size: 2.5rem;
+  border-top: 1px solid #bfe55e45;
+  padding: 6rem;
+}
+
+.Projects .main-projects {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.main-projects tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-projects td {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border: #BFE55E solid 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  align-items: center;
+  margin: 1rem;
+  font-family: 'kanit';
+  padding-bottom: 2rem;
+  line-height: 20px;
+}
+
+.main-projects td img {
+  background: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.main-projects td img:hover {
+  background: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+.main-projects td h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.main-projects td p {
+  margin: 0;
+  font-family: 'raleway';
+}
+
+.main-projects td button {
+  background-color: #BFE55E;
+  border: 1px solid #BFE55E;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #bfe55e44;
+  width: 80px;
+  height: 40px;
+  color: #202020;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  background-color: #202020;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Footer a {
+  color: #BFE55E;
+  text-decoration: none;
+  font-family: 'kanit';
 }
