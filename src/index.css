@@ -33,6 +33,11 @@ body {
   cursor: pointer;
 }
 
+.div-contact a button:hover {
+  background: #d3ff6412;
+  opacity: 1;
+}
+
 .contato {
   position: fixed;
   transform: rotate(-90deg);
@@ -85,16 +90,30 @@ body {
 }
 
 .info-main h1{
-  font-size: 5rem;
+  width: fit-content;
+  padding-right: 1rem;
+  font-size: 4.5rem;
   color: #BFE55E;
   margin: 0;
   font-family: 'kanit';
   font-style: italic;
-  transition: transform 0.2s;
+  /* transition: transform 0.2s; */
+  overflow: hidden;
+  border-right: 0.4rem solid #BFE55E;
+  white-space: nowrap;
+  animation: 
+    typing 3.5s steps(40),
+    blink-caret .75s step-end infinite;
 }
 
-.info-main h1:hover {
-  transform: scaleY(0.5) scaleX(0.7);
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #BFE55E; }
 }
 
 .info-main h2{
@@ -119,6 +138,11 @@ body {
   color: #BFE55E;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.info-main button:hover {
+  background: #d3ff6412;
+  opacity: 1;
 }
 
 .img-main {
@@ -191,6 +215,11 @@ body {
   align-items: center;
 }
 
+.skills div:hover {
+  background: #d3ff6412;
+  opacity: 1;
+}
+
 .skills .rtl {
   font-size: 1rem;
 }
@@ -209,6 +238,11 @@ body {
   height: 100px;
   align-self: center;
   align-items: center;
+}
+
+.extra-skills div:hover {
+  background: #d3ff6412;
+  opacity: 1;
 }
 
 .extra-skills .mui {
@@ -259,13 +293,17 @@ body {
   line-height: 20px;
 }
 
+.main-projects td:hover {
+  background: #d3ff6412;
+  opacity: 1;
+}
+
 .main-projects td img {
   background: rgb(0, 0, 0);
   opacity: 0.7;
 }
 
 .main-projects td img:hover {
-  background: rgb(0, 0, 0);
   opacity: 1;
 }
 
