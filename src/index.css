@@ -298,7 +298,7 @@ body {
 }
 
 .main-projects td:hover {
-  background: #d3ff6412;
+  background: #d3ff640b;
   opacity: 1;
 }
 
@@ -321,6 +321,10 @@ body {
   font-family: 'raleway';
 }
 
+.main-projects td a {
+  margin: 0.4rem;
+}
+
 .main-projects td button {
   background-color: #BFE55E;
   border: 1px solid #BFE55E;
@@ -332,6 +336,11 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 600;
+}
+
+.main-projects td button:hover {
+  background-color: #1b2404;
+  color: #BFE55E;
 }
 
 .Footer {

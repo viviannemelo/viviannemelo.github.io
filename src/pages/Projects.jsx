@@ -26,25 +26,40 @@ class Projects extends Component {
               <img src={OnlineStore} alt='frontend online store project' width="320" height="180"/>
               <h3>Front-end Online Store</h3>
               <p>E-commerce</p>
+              <div>
               <a href="https://github.com/viviannemelo/react-testing-library-trybe" target="blank">
               <button>código</button>
               </a>
+              <a href="https://viviannemelo.github.io/project-pixels-art-trybe/" target="blank">
+                <button>preview</button>
+              </a>
+              </div>
             </td>
             <td>
               <img src={Trybetunes} alt='trybetunes project' width="320" height="180"/>
               <h3>Trybetunes</h3>
               <p>Player de música</p>
+              <div>
               <a href="https://github.com/viviannemelo/project-trybetunes-trybe" target="blank">
               <button>código</button>
               </a>
+              <a href="https://viviannemelo.github.io/project-trybetunes-trybe/" target="blank">
+                <button>preview</button>
+              </a>
+              </div>
             </td>
             <td>
               <img src={ShoppingCart} alt='shopping cart project' width="320" height="180" />
               <h3>TrybeShopping</h3>
               <p>E-commerce</p>
+              <div>
               <a href="https://github.com/viviannemelo/project-shopping-cart-trybe" target="blank">
               <button>código</button>
               </a>
+              <a href="https://viviannemelo.github.io/project-shopping-cart-trybe/" target="blank">
+                <button>preview</button>
+              </a>
+              </div>
             </td>
             <td>
               <img src={ZooFunction} alt='zoo function project' width="320" height="180"/>
@@ -58,9 +73,14 @@ class Projects extends Component {
               <img src={PixelsArt} alt='pixels art project' width="320" height="180"/>
               <h3>Pixels Art</h3>
               <p>Pintura com pixels</p>
+              <div>
               <a href="https://github.com/viviannemelo/project-pixels-art-trybe" target="blank">
               <button>código</button>
               </a>
+              <a href="https://viviannemelo.github.io/project-pixels-art-trybe/" target="blank">
+                <button>preview</button>
+              </a>
+              </div>
             </td>
           </tr>
         </div>
