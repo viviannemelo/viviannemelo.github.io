@@ -31,16 +31,16 @@ class About extends Component {
             <p>React</p>
             </div>
             <div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux-icon" width="70" height="70"/>
+            <p>Redux</p>
+            </div>
+            <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest-icon" width="70" height="70"/>
             <p>Jest</p>
             </div>
             <div className='rtl'>
             <img src="https://raw.githubusercontent.com/testing-library/dom-testing-library/main/other/octopus.png" alt="rtl-icon" width="70" height="70"/>
             <p>Testing Library</p>
-            </div>
-            <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="node-icon" width="70" height="70"/>
-            <p>NodeJS</p>
             </div>
             </div>
             <div className='extra-skills'>
@@ -49,16 +49,24 @@ class About extends Component {
             <p>Figma</p>
             </div>
             <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="ps-icon" width="55" height="55"/>
-            <p>Photoshop</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="ps-icon" width="55" height="55"/>
+              <p>Photoshop</p>
             </div>
             <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bt-icon" width="55" height="55"/>
-            <p>Bootstrap</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bt-icon" width="55" height="55"/>
+              <p>Bootstrap</p>
             </div>
             <div className='mui'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="mui-icon" width="55" height="55"/>
-            <p>Material UI</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="mui-icon" width="55" height="55"/>
+              <p>Material UI</p>
+            </div>
+            <div className='sass'>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass-icon" width="55" height="55"/>
+              <p>Sass</p>
+            </div>
+            <div className='tailwindcss'>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss-icon" width="55" height="55"/>
+              <p>TailwindCSS</p>
             </div>
             </div>
         </div>
