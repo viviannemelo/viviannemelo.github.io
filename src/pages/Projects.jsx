@@ -27,10 +27,10 @@ class Projects extends Component {
               <h3>Front-end Online Store</h3>
               <p>E-commerce</p>
               <div>
-              <a href="https://github.com/viviannemelo/react-testing-library-trybe" target="blank">
+              <a href="https://github.com/viviannemelo/project-online-store-trybe" target="blank">
               <button>código</button>
               </a>
-              <a href="https://viviannemelo.github.io/project-pixels-art-trybe/" target="blank">
+              <a href="https://github.com/viviannemelo/project-online-store-trybe" target="blank">
                 <button>preview</button>
               </a>
               </div>
