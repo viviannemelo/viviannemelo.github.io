@@ -61,7 +61,7 @@ class About extends Component {
               <p>Material UI</p>
             </div>
             <div className='sass'>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass-icon" width="55" height="55"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass-icon" width="55rem" height="55"/>
               <p>Sass</p>
             </div>
             <div className='tailwindcss'>

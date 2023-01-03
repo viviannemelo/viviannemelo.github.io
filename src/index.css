@@ -9,11 +9,13 @@
 }
 
 body {
+  max-width: 100vw;
   margin: 0;
+  background-color: #202020;
+  overflow-x: hidden;
 }
 
 .div-contact {
-  display: flex;
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -260,7 +262,7 @@ body {
 }
 
 .Projects h2 {
-  margin: 0;
+  margin: auto;
   color: #BFE55E;
   font-family: 'kanit';
   font-style: italic;
@@ -357,4 +359,101 @@ body {
   color: #BFE55E;
   text-decoration: none;
   font-family: 'kanit';
+}
+
+@media (min-width: 2560px)
+{
+  .Home {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1050px)
+and (min-width: 700px)
+{
+  .img-main {
+    display: none;
+  }
+  .About {
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .skills {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .extra-skills {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .extra-skills .mui {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px)
+  and (min-width: 300px)
+{
+  .div-contact{
+    display: none;
+  }
+  .Home{
+    margin: 0 20px;
+  }
+  .info-main{
+    width: 100%;
+    align-items: center;
+  }
+  .info-main h1{
+    font-size: 2.5rem;
+  }
+  .info-main h2{
+    font-size: 1rem;
+  }
+  .img-main {
+    display: none;
+  }
+  .About {
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  .main-skills {
+    width: 50%;
+  }
+  .skills {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .extra-skills {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .extra-skills .mui {
+    font-size: 0.8rem;
+  }
+  .Projects{
+    padding: 2rem;
+  }
+  .Projects h2 {
+    padding: 2rem;
+  }
+  .main-projects tr {
+    width: 50%;
+    margin: auto;
+  }
+  .Footer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
