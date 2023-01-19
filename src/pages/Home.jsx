@@ -9,7 +9,7 @@ class Home extends Component {
         <div className='info-main'>
           <span>Olá, visitante! :)</span>
           <h1 id="typewriter">Vivianne Melo</h1>
-          <h2>Desenvolvedora Web Front-end Junior
+          <h2>Quality Assurance | Analista de teste Jr.
           </h2>
           <a href={Curriculo} download="Currículo - Vivianne Melo">
           <button>Baixar CV</button>

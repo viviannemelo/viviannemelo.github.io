@@ -31,8 +31,8 @@ class About extends Component {
             <p>React</p>
             </div>
             <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux-icon" width="70" height="70"/>
-            <p>Redux</p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="redux-icon" width="70" height="70"/>
+            <p>NodeJS</p>
             </div>
             <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest-icon" width="70" height="70"/>

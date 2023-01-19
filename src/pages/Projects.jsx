@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import ReactTestingLibrary from '../custom/images/projects/rtl.jpg';
+import UnitTests from '../custom/images/projects/unittests.jpg'
 import OnlineStore from '../custom/images/projects/onlinestore.png';
 import Trybetunes from '../custom/images/projects/trybetunes.png';
 import ShoppingCart from '../custom/images/projects/shoppingcard.png';
@@ -19,6 +20,14 @@ class Projects extends Component {
               <h3>React Testing Library</h3>
               <p>Testes com RTL</p>
               <a href="https://github.com/viviannemelo/react-testing-library-trybe" target="blank">
+              <button>código</button>
+              </a>
+            </td>
+            <td>
+              <img src={UnitTests} alt='react testing library project' width="320" height="180"/>
+              <h3>Javascript Unit Tests</h3>
+              <p>Testes unitários em Javascript</p>
+              <a href="https://github.com/viviannemelo/javascript-unit-tests" target="blank">
               <button>código</button>
               </a>
             </td>
