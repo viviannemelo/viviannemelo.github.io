@@ -266,7 +266,7 @@ body {
   color: #BFE55E;
   font-family: 'kanit';
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   border-top: 1px solid #bfe55e45;
   padding: 6rem;
 }
@@ -278,8 +278,83 @@ body {
   width: 90%;
   margin: auto;
 }
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+  text-align: left;
+}
+.main-projects a {
+  text-decoration: none;
+}
 
-.main-projects tr {
+.main-projects h3 {
+  color: #BFE55E;
+  font-family: 'kanit';
+  font-size: 1.5rem;
+}
+
+.main-projects p {
+  color: white;
+  font-family: 'kanit';
+  width: 50%;
+  margin: auto;
+}
+
+.test-project {
+  width: 90%;
+  margin: auto;
+}
+
+.test-project .subtitle {
+  font-size: 2.5rem;
+  border: 0;
+  padding: 0;
+}
+
+.test-project img {
+  border: #BFE55E solid 2px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 2px #bfe55e44;
+  padding: 1rem;
+}
+
+.front-projects {
+  width: 90%;
+  margin: auto;
+}
+
+.front-projects .subtitle {
+  font-size: 2.5rem;
+  border: 0;
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.front-projects img {
+  border: #BFE55E solid 2px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 2px #bfe55e44;
+  padding: 1rem;
+}
+
+.back-projects {
+  width: 90%;
+  margin: auto;
+}
+
+.back-projects .subtitle {
+  font-size: 2.5rem;
+  border: 0;
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.back-projects img {
+  border: #BFE55E solid 2px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 2px #bfe55e44;
+  padding: 1rem;
+}
+
+/* .main-projects tr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -343,7 +418,7 @@ body {
 .main-projects td button:hover {
   background-color: #1b2404;
   color: #BFE55E;
-}
+} */
 
 .Footer {
   display: flex;
@@ -444,9 +519,34 @@ and (min-width: 700px)
   .Projects h2 {
     padding: 2rem;
   }
-  .main-projects tr {
-    width: 50%;
+  .main-projects {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-projects .test-project {
+    width: 100%;
     margin: auto;
+  }
+  .main-projects .front-projects {
+    width: 100%;
+    margin: auto;
+  }
+  .main-projects .back-projects {
+    width: 100%;
+    margin: auto;
+  }
+  .test-project img {
+    width: 60%;
+    height: 60%;
+  }
+  .front-projects img {
+    width: 60%;
+    height: 60%;
+  }
+  .back-projects img {
+    width: 60%;
+    height: 60%;
   }
   .Footer {
     display: flex;
