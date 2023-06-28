@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.e63bf084.css",
-    "main.js": "/static/js/main.b7c51e1f.js",
+    "main.js": "/static/js/main.a43d8cf6.js",
     "static/media/shoppingcard.png": "/static/media/shoppingcard.0dd82f737b623d095354.png",
     "static/media/profile.png": "/static/media/profile.9d89133bed00fb8d9fb4.png",
     "static/media/unittests.jpg": "/static/media/unittests.dd03c9457f3cab07f063.jpg",
     "static/media/rtl.jpg": "/static/media/rtl.eeef7356a8421bc70894.jpg",
     "static/media/trybetunes.png": "/static/media/trybetunes.fee83683f118760a6d70.png",
     "static/media/onlinestore.png": "/static/media/onlinestore.42d45c8f7b9639013c34.png",
-    "static/media/curriculo-vivianne-melo.pdf": "/static/media/curriculo-vivianne-melo.636bde0705043b7089fa.pdf",
     "static/media/zoofunction.jpg": "/static/media/zoofunction.f654ae0f4d2031ef97a6.jpg",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/Kanit-Medium.ttf": "/static/media/Kanit-Medium.786fd6bb96ce0cf5c5b2.ttf",
     "static/media/oneforall.jpeg": "/static/media/oneforall.2d0e917ef81d84587a08.jpeg",
+    "static/media/curriculo-vivianne-melo.pdf": "/static/media/curriculo-vivianne-melo.eef52b524d98de538541.pdf",
     "static/media/pixelsart.png": "/static/media/pixelsart.ec099be2aaa55e148e40.png",
     "static/media/talkermanager.jpeg": "/static/media/talkermanager.50c265db52b39edd7b5e.jpeg",
     "index.html": "/index.html",
     "main.e63bf084.css.map": "/static/css/main.e63bf084.css.map",
-    "main.b7c51e1f.js.map": "/static/js/main.b7c51e1f.js.map"
+    "main.a43d8cf6.js.map": "/static/js/main.a43d8cf6.js.map"
   },
   "entrypoints": [
     "static/css/main.e63bf084.css",
-    "static/js/main.b7c51e1f.js"
+    "static/js/main.a43d8cf6.js"
   ]
 }
