@@ -6,7 +6,7 @@ class Contact extends Component {
       <div className='div-contact'>
         <div className='contato'>
         <a href="mailto:viviannemmelo@gmail.com" target="blank">
-            <button>Contato</button>
+            <button>Contact</button>
         </a>
         </div>
         <div className='linkedin'>

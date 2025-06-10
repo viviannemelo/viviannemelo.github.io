@@ -6,9 +6,9 @@ class Header extends Component {
   render() {
     return (
         <div className="Header">
-            <AnchorLink href="#Home">Início</AnchorLink>
-            <AnchorLink href="#About">Sobre</AnchorLink>
-            <AnchorLink href="#Projects">Projetos</AnchorLink>
+            <AnchorLink href="#Home">Home</AnchorLink>
+            <AnchorLink href="#About">About me</AnchorLink>
+            <AnchorLink href="#Projects">Projects</AnchorLink>
         </div>
     );
   }

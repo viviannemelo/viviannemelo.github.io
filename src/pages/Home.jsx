@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Curriculo from '../components/doc/curriculo-vivianne-melo.pdf';
+import Resume from '../components/doc/resume-vivianne-melo.pdf';
 
 
 class Home extends Component {
@@ -7,12 +7,12 @@ class Home extends Component {
     return (
       <div id="Home" className='Home'>
         <div className='info-main'>
-          <span>Olá, visitante! :)</span>
-          <h1 id="typewriter">Vivianne Melo</h1>
-          <h2>Quality Assurance | Developer
-          </h2>
-          <a href={Curriculo} download="Currículo - Vivianne Melo">
-          <button>Baixar CV</button>
+          <span>Hello! :)</span>
+          <h1>I'm Vivianne Melo</h1>
+          {/* <h1 id="typewriter">Vivianne Melo</h1> */}
+          <h2>Quality Assurance | Software Automation Test Engineer</h2>
+          <a href={Resume} download="Resume - Vivianne Melo">
+          <button>Download Resume</button>
           </a>
         </div>
         <div className='img-main'>
